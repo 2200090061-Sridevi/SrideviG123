@@ -1,0 +1,38 @@
+class MusicPlayer
+{
+    private string make;
+    private int power;
+    MusicPlayer(string m,int p)
+    {
+        make = m;
+        power = p;
+    }
+    public tostring(){
+        return "Make:"+make+,"Power"+power;
+    }
+}
+class car
+{
+    private string make;
+    private MusicPlayer playea\r;
+    car(string m,int p)
+    {
+         make = m;
+         power = p;       
+    }
+        public string tostring()
+        {
+            string m;
+            m="Car Make"+make+,player.tostring();
+            return m;
+        }
+}
+class CarDemo
+{
+    public static void main(string[] a)
+    {
+        MusicPlayer("Sony",120);
+        Car MyCar = new Car("Honda",m);
+        system.out.println(MyCar);
+    }
+}
