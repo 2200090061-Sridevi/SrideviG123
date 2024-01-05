@@ -1,0 +1,32 @@
+import java.io.*;
+ 
+// Driver Class
+class GFG {
+    public static int sum(int num1, int num2)
+    {
+        return num1+num2;
+    }
+     
+      // main function
+    public static void main(String[] args)
+    {
+        GFG ob = new GFG();
+        int res = ob.sum(28, 49);
+        System.out.println(res);
+    }
+}
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
